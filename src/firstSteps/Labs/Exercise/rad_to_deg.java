@@ -1,0 +1,13 @@
+package firstSteps.Labs.Exercise;
+
+import java.util.Scanner;
+
+public class rad_to_deg {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        double radians = Double.parseDouble(scan.nextLine());
+        double degrees = radians * 180 / Math.PI;
+        System.out.printf("%.0f", degrees);
+    }
+}
